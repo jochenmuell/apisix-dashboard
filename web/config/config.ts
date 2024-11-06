@@ -45,8 +45,8 @@ export default defineConfig({
     locale: true,
     logo: '/favicon.png',
   },
-  base: '/apisix/',
-  publicPath: '/apisix/',
+  base: '/dashboard/',
+  publicPath: '/dashboard/',
   define: {
     REACT_APP_ENV: REACT_APP_ENV || false,
     'process.env': {
